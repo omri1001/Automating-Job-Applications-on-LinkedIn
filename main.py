@@ -11,9 +11,9 @@ driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3483364304&f_AL=t
 
 time.sleep(3)
 
-email = "omrirahmani1001@gmail.com"
-password = "936855275388"
-phone = "+972526453661"
+email = "PUTYOURS"
+password = "PUTYOURS"
+phone = "PUTYOURS"
 #Signing in
 first_sign_in = driver.find_element(by="css selector", value=".btn-secondary-emphasis")
 first_sign_in.click()
